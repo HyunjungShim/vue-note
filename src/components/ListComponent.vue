@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import addIcon from '@/assets/image/noData.jpg';
+import addIcon from '@/assets/image/noData.png';
 import {mapState,mapGetters } from 'vuex';
 import { displayDate} from '@/utils/convertDate.js';
   export default {
@@ -90,11 +90,6 @@ import { displayDate} from '@/utils/convertDate.js';
     methods:{
       displayDate,
     },
-    watch:{
-      currentSort(newValue){
-        console.log(newValue);
-      }
-    }
   }
 </script>
 
