@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 /* default setting */
+
+:root {
+    --font-main:"Noto Sans KR", sans-serif;
+}
+
+button, input, optgroup, select, textarea {
+}
+html,body,#app {
+    font-family: var(--font-main);
+}
+
 h1 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 li {
@@ -39,7 +51,6 @@ textarea {
 }
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
